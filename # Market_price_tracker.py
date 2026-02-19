@@ -10,8 +10,8 @@ CHECK_INTERVAL = 60
 MARKET_TZ = pytz.timezone("US/Eastern")
 
 
-TG_TOKEN = "8205563945:AAE7rQHCggCz9WAUKhZ9NnLz6LwIm9QZTx4"
-CHAT_ID = "6089451277"
+TG_TOKEN = "YOUR_TELEGRAM_TOKEN"
+CHAT_ID = "BOTCHAT_ID"
 
 def notify(text):
     url = f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage"
@@ -78,3 +78,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
